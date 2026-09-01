@@ -1,4 +1,4 @@
-import ShopSwiftLogo from "../../components/ShopSwiftLogo";
+import logo from "../../assets/images/ShopSwiftLogo.png"
 import {
     ButtonText, FooterAnchor, FooterAnchorText, FooterText, FormContainer,
     HeroContainer,
@@ -8,13 +8,13 @@ import {
     InputLabel,
     InputPassword,
     InputWrapper, SignUpContainer, SubmitButton
-} from "../SignIn/style";
+} from "../Login/style";
 import {View} from "react-native";
 
 export const Cadastro = () => {
     return (
         <FormContainer>
-            <ShopSwiftLogo/>
+            <Image source={logo} />
             <HeroContainer>
                 <HeroText>Crie uma conta</HeroText>
                 <HeroTextHighLight>e descubra...</HeroTextHighLight>
